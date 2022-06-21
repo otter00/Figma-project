@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url ("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url ("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map");
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  background-color: #007765;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.header_link, .header_list span:hover
+{
+  text-decoration: underline;
+}
+
+.header_body {
+  position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.header_logo {
+      position: relative;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+}
+
+.header_menu {
+      margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.header_list {
+  display: flex;
+    position: relative;
+    padding: 28px 0 0 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.header_link {
+  margin-left: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.header_link, .header_list span {
+  display: flex;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+.container1 {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+a:-webkit-any-link {
+        color: -webkit-link;
+    cursor: pointer;
+}
+
+.act {
+    color: grey;
+}
+
+.footer {
+  display: flex;
+  height: 176px;
+  background-color: #333333;
+justify-content: center;
+box-sizing: border-box;
+}
+
+.footer_message {
+  display: block;
+  color: white;
+  width: 540px;
+  margin: 0;
+  border: 0;
+  padding: 48px 0 0 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+  background: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.pied_img {
+    float: left;
+    margin: 0 48px 35px 0;
+    width: 115px;
+    height: 115px;
+}
+
+.img {
+  display: flex;
+  float: left;
+}
+
+.text {
+display: block;
+height: 100%;
+  max-width: 992px;
+margin: auto;
+box-sizing: border-box;
+  text-align: left;
+font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 32px;
+}
+
+.jumbotron p {
+font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.p2 {
+  font-size: 32px;
+  font-style: normal;
+font-weight: normal;
+line-height: 37px;
+margin: 0;
+padding: 0 0 40px 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+}
+
+h1 {
+  color: #007765;
+  font-weight: 500;
+font-style: normal;
+    line-height: 75px;
+padding-top: 48px;
+    padding-right: 0px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+margin: 0;
+  text-align: center;
+  font-size: 64px;
+}
+
+.container {
+  max-width: 1219px;
+  margin: 0 auto;
+padding: 0 55px 0 55px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.jumbotron {
+    min-height: 403px;
+margin-top: 84px;
+background: url('https://arthur-ming.github.io/Pied-Piper/images/image-8.png') 0 0 / cover no-repeat;
+  background-size: cover;
+  background-position: center center;    
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo_message {
+margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
